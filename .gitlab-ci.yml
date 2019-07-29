@@ -1,0 +1,25 @@
+# Using the node alpine image to build the React app
+image: node:10.15.3
+
+
+cache:
+  paths:
+  - node_modules
+  - public
+  - src
+
+before_script:
+  - apt-get update -qq && apt-get install
+
+# Name the stages involved in the pipeline
+stages:
+  - build
+  - test
+  - staging
+
+Build:
+  stage: build
+  tags:
+    - node
+  script:
+    - npm run build
