@@ -38,7 +38,6 @@ class StreamCreate extends React.Component {
                 <button className="ui button primary">Submit</button>
             </form>
         )
-
     }
 }
 
