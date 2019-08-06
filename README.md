@@ -1,4 +1,4 @@
-# planets-star-wars
+# Streamy
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
@@ -7,6 +7,7 @@
 
 
 Simple React interface for simulates a streaming service (it's not like twitch but it has some similarities). Serves no real purpose, but is useful as an example or boilerplate for a React application, using Redux, React Router, and a JSON server.
+This work was done using knowledge acquired in the React + Redux course by Stephen Grider
 
 
 ## Dependencies
