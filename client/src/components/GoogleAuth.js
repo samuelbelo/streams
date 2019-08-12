@@ -8,10 +8,6 @@ class GoogleAuth extends React.Component {
         window.gapi.load('client:auth2', () => {
             window.gapi.client.init({
                 clientId: '310301573783-b19u8i6paa4i2tfadlkf9qqo9fm81no9.apps.googleusercontent.com',
-                /**Since this is client side code it will be exposed anyway, this is one of the reasons why 
-                 * I have to set an authorized origins in the Google project associated with it.
-                 * It will not hide the anything from the client, 
-                 * but I'll certainly use Create React App's dotenv support to keep it out of version control, later.  */
                 scope: 'email'
             }).then(() => {
                 this.auth = window.gapi.auth2.getAuthInstance();
