@@ -1,28 +1,6 @@
 {
   "streams": [
     {
-      "title": "1st title",
-      "description": "1st description",
-      "id": 1
-    },
-    {
-      "title": "New stream",
-      "description": "one more",
-      "id": 2
-    },
-    {
-      "title": "I created this stream",
-      "description": "this was made by me",
-      "userId": "106380468435258304252",
-      "id": 3
-    },
-    {
-      "title": "New title yay",
-      "description": "Some description cuz anyway, this don't have to appear on the form page :P",
-      "userId": "106380468435258304252",
-      "id": 4
-    },
-    {
       "title": "minha stream legal",
       "description": "lola",
       "userId": "112818937381567377955",
